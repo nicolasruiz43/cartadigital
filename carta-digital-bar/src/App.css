@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos del contenedor principal */
+.App {
+  text-align: center;
+}
+
+/* Estilos del encabezado */
+.header {
+  background: linear-gradient(270deg, #0614d6, #20c50af5, #9596975e, #17a198);
+  background-size: 400% 400%;
+  animation: gradientHeaderAnimation 10s ease infinite;
+  color: #fff;
+  padding: 1em 0;
+}
+
+/* Animación del gradiente en el encabezado */
+@keyframes gradientHeaderAnimation {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+
+/* Estilos del menú */
+.menu {
+  padding: 1em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Estilos de las secciones */
+.section {
+  margin-bottom: 1.5em;
+}
+
+/* Estilos para los iconos */
+.section h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+/* Resto de los estilos permanece igual... */
+
+/* Estilos de la lista */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 0.5em 0;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Estilos del pie de página */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em 0;
+  margin-top: 2em;
+}
