@@ -4,7 +4,7 @@ import express from 'express';
 import path from 'path'; // Asegúrate de importar 'path'
 
 const app = express();
-const port = 8081;
+const port = 6000;
 
 // Middleware para analizar el cuerpo de las solicitudes
 app.use(express.json());
